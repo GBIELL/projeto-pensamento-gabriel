@@ -1,0 +1,25 @@
+.cat img{
+
+
+    transition: 0.8s;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cat img:hover{
+    filter: grayscale(100%);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+.cat h2{
+    
+    margin-top: -4px;
+    background-color: white;
+    font-size: 35px;
+    color: rgb(72, 72, 72);
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

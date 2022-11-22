@@ -1,0 +1,167 @@
+/* CSS CRIADO POR GABRIEL LOPES GITHUB: GBIELL  */
+html{
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family: "Inter",sans-serif,Arial, Helvetica
+}
+
+.lide{
+    
+    color: white;
+    width: 100%;
+    height: 600px;
+    background-color: #1c7ab0;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.grid{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    
+}
+.grid-left{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.grid-left h1{
+    padding: 10px;
+    font-size:50pt;
+}
+.grid-left p{
+
+    font-size: 25px;
+
+}
+.grid-right{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.box{
+    color: #023047;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.title-mais{
+
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    color: #023047;
+    font-size: 30px;
+    background-color: white;
+    padding-top:3px;
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: #1c7ab0;
+    justify-content: center;
+    padding-top: 30px;
+}
+.categorias .cat{
+    
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.btn_enter{
+
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #1c7ab0;
+    transition: 0.7s;
+
+}
+.btn_enter:hover{
+    transition: 0.7s;
+    background-color: #09547f;
+    cursor: pointer;
+}
+
+.search input{
+    height: 40px;
+    margin: 30px;
+   
+  
+    padding-left: 20px;
+    font-family: "Inter";
+    color: black;
+    font-size:20pt;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+@media(max-width:1290px) {
+
+    .grid-left{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+    }
+    .grid-left h1{
+        padding: 10px;
+        font-size:30pt;
+    }
+    .grid-left p{
+    
+        font-size: 19px;
+    
+    }
+    .grid-right{
+        
+        width: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        
+    }
+    .box{
+       
+        width: 400px;
+        height: 400px;
+        border-radius: 5px;
+        background-color: white;
+    
+    }
+
+  
+
+}
